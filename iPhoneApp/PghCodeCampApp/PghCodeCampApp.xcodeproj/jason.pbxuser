@@ -1,0 +1,147 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* PghCodeCampApp */ = {
+		activeExec = 0;
+		executables = (
+			96C376FC1136C89B0045EF65 /* PghCodeCampApp */,
+		);
+	};
+	28216C950DB411BC00E5133A /* FirstViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 237}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 240}";
+		};
+	};
+	28216C960DB411BC00E5133A /* FirstViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {712, 806}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 522}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 96C376FC1136C89B0045EF65 /* PghCodeCampApp */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* PghCodeCampApp */;
+		codeSenseManager = 96C377091136C8BC0045EF65 /* Code sense */;
+		executables = (
+			96C376FC1136C89B0045EF65 /* PghCodeCampApp */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 288803560;
+			PBXWorkspaceStateSaveDate = 288803560;
+		};
+		perUserProjectItems = {
+			9600185D1136CB0700B05CDF /* PBXTextBookmark */ = 9600185D1136CB0700B05CDF /* PBXTextBookmark */;
+			9600185E1136CB0700B05CDF /* PBXBookmark */ = 9600185E1136CB0700B05CDF /* PBXBookmark */;
+			9600185F1136CB0700B05CDF /* PBXTextBookmark */ = 9600185F1136CB0700B05CDF /* PBXTextBookmark */;
+			96C3771D1136CAD50045EF65 = 96C3771D1136CAD50045EF65 /* PBXBookmark */;
+			96C3771E1136CAD50045EF65 = 96C3771E1136CAD50045EF65 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 96C377081136C8BC0045EF65 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	9600185D1136CB0700B05CDF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28216C950DB411BC00E5133A /* FirstViewController.h */;
+		name = "FirstViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 240;
+		vrLoc = 0;
+	};
+	9600185E1136CB0700B05CDF /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 28216C960DB411BC00E5133A /* FirstViewController.m */;
+	};
+	9600185F1136CB0700B05CDF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28216C960DB411BC00E5133A /* FirstViewController.m */;
+		name = "FirstViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 522;
+		vrLoc = 0;
+	};
+	96C376FC1136C89B0045EF65 /* PghCodeCampApp */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = PghCodeCampApp;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	96C377081136C8BC0045EF65 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "PghCodeCamp iPhone Repo";
+			};
+		};
+	};
+	96C377091136C8BC0045EF65 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	96C3771D1136CAD50045EF65 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 28216C950DB411BC00E5133A /* FirstViewController.h */;
+	};
+	96C3771E1136CAD50045EF65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28216C950DB411BC00E5133A /* FirstViewController.h */;
+		name = "FirstViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 240;
+		vrLoc = 0;
+	};
+}
