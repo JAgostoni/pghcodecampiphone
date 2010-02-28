@@ -13,7 +13,9 @@
 
 @interface SessionTableViewController : UITableViewController {
 	CodeCampData *codeCampData;
+	IBOutlet UITableViewCell *detailView;
 }
 
+@property (nonatomic, retain) UITableViewCell *detailView;
 
 @end
