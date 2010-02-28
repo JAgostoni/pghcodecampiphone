@@ -11,11 +11,11 @@
 
 @interface CodeCampData : NSObject {
 	NSMutableArray *newsItems;
-	NSMutableArray *newsDetails;
+	NSMutableArray *sessionItems;
 	
 }
 
 @property (nonatomic, retain) NSMutableArray *newsItems;
-@property (nonatomic, retain) NSMutableArray *newsDetails;
+@property (nonatomic, retain) NSMutableArray *sessionItems;
 -(void) loadWithTestData;
 @end

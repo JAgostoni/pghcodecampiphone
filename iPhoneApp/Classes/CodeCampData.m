@@ -7,24 +7,60 @@
 //
 
 #import "CodeCampData.h"
-
+#import "NewsItem.h"
+#import "SessionItem.h"
 
 @implementation CodeCampData
 
 @synthesize newsItems;
-@synthesize newsDetails;
+@synthesize sessionItems;
 
 -(void) loadWithTestData
 {
-	self.newsItems = [[NSMutableArray alloc] initWithObjects:@"News Item 1", @"News Item 2", @"News Item 3", nil];
-	self.newsDetails = [[NSMutableArray alloc] initWithObjects:@"These are the details of the news item 1", @"These are the details of news item 2", @"These are the details of news item 3", nil];
+	NewsItem *item;
 	
+	item = [NewsItem alloc];
+	item.title = @"News Item 1";
+	item.content = @"These are the details of news item 1";
+	item.author = @"Jason";
+	item.postedDate = @"Jan 12";
+	self.newsItems = [[NSMutableArray alloc] initWithObjects: item, nil];
+	[item release];
+	
+	item = [NewsItem alloc];
+	item.title = @"News Item 2";
+	item.content = @"These are the details of news item 2";
+	item.author = @"Mike";
+	item.postedDate = @"Jan 10";
+	[self.newsItems addObject:item];
+	[item release];
+
+	SessionItem *session;
+	session = [SessionItem alloc];
+	session.title = @"Session 1";
+	session.synopsis = @"Session 1 demontrates how session does something to help you do somethng else";
+	session.time = @"8:00 am";
+	session.room = @"Room 201";
+	session.presenter = @"Jason";
+	session.bio = @"Jason does stuff for a living working for a company doing things there";
+	self.sessionItems = [[NSMutableArray alloc] initWithObjects:session, nil];
+	[session release];
+
+	session = [SessionItem alloc];
+	session.title = @"Session 2";
+	session.synopsis = @"Session 2 demontrates how session does something to help you do somethng else";
+	session.time = @"8:00 am";
+	session.room = @"Room 205";
+	session.presenter = @"Mike";
+	session.bio = @"Mike does stuff for a living working for a company doing things there";
+	[self.sessionItems addObject:session];
+	[session release];
 }
 
 -(void)dealloc 
 {
-	[newsDetails release];
 	[newsItems release];
+	[sessionItems release];
 	[super dealloc];
 	
 }

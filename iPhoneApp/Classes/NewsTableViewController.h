@@ -13,10 +13,10 @@
 @interface NewsTableViewController : UITableViewController <UITableViewDelegate, UITableViewDataSource> {
 	IBOutlet UITableView *newsTableView;
 	CodeCampData *codeCampData;
-	NewsDetailViewController *detailView;
+	IBOutlet UITableViewCell *newsViewCell;
 }
 
 @property (nonatomic, retain) IBOutlet UITableView *newsTableView;
-@property (nonatomic, retain) NewsDetailViewController *detailView;
+@property (nonatomic, retain) IBOutlet UITableViewCell *newsViewCell;
 
 @end
