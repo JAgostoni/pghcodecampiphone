@@ -1,19 +1,15 @@
 //
-//  NewsTableViewController.m
+//  SessionTableViewController.m
 //  PghCodeCampApp
 //
 //  Created by Jason Agostoni on 2/27/10.
-//  Copyright 2010 Jason Agostoni. All rights reserved.
+//  Copyright 2010 Pittsburgh Code Camp. All rights reserved.
 //
 
-#import "NewsTableViewController.h"
-#import "PghCodeCampAppAppDelegate.h";
-#import "NewsItem.h";
+#import "SessionTableViewController.h"
 
 
-@implementation NewsTableViewController
-@synthesize newsTableView;
-@synthesize newsViewCell;
+@implementation SessionTableViewController
 
 /*
 - (id)initWithStyle:(UITableViewStyle)style {
@@ -27,12 +23,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-	self.title = @"News";
+	self.title = @"Sessions";
 	
 	PghCodeCampAppAppDelegate *app = [[UIApplication sharedApplication] delegate];
 	codeCampData = app.codeCampData;
-	
-
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
@@ -77,7 +71,6 @@
 - (void)viewDidUnload {
 	// Release any retained subviews of the main view.
 	// e.g. self.myOutlet = nil;
-	[newsViewCell release];
 }
 
 
@@ -90,10 +83,7 @@
 
 // Customize the number of rows in the table view.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    
-	//return [newsItems count];
-	return [codeCampData.newsItems count];
-	
+    return [codeCampData.sessionItems count];
 }
 
 
@@ -104,38 +94,25 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-		[[NSBundle mainBundle] loadNibNamed:@"NewsTableViewCell" owner:self options:nil];
-		cell = newsViewCell;
-		self.newsViewCell = nil;
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
     
     // Set up the cell...
-	NewsItem *item = [codeCampData.newsItems objectAtIndex:[indexPath row]];
-	[(UILabel *)[cell viewWithTag:1] setText:item.title];
-	[(UILabel *)[cell viewWithTag:2] setText:item.postedDate];
-	[(UILabel *)[cell viewWithTag:3] setText:item.author];
-
-	
-	
+	SessionItem *item;
+	item = [codeCampData.sessionItems objectAtIndex:[indexPath row]];
+	[cell setText: item.title];
+	[item release];
     return cell;
 }
 
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-	
-	NewsDetailViewController *nextView;
-	nextView = [[NewsDetailViewController alloc] initWithNibName:@"NewsDetailView" bundle:nil];
-
-	NewsItem *item = [codeCampData.newsItems objectAtIndex:[indexPath row]];	
-	nextView.title = item.title;
-	nextView.detailText = item.content;
-
-	
-	PghCodeCampAppAppDelegate *app = [[UIApplication sharedApplication] delegate];
-	[app.newsNavController pushViewController:nextView animated:TRUE];
-	[nextView release];
+    // Navigation logic may go here. Create and push another view controller.
+	// AnotherViewController *anotherViewController = [[AnotherViewController alloc] initWithNibName:@"AnotherView" bundle:nil];
+	// [self.navigationController pushViewController:anotherViewController];
+	// [anotherViewController release];
 }
-	
+
 
 /*
 // Override to support conditional editing of the table view.
