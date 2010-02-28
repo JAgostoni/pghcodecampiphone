@@ -16,7 +16,10 @@
 		961877721139C8E000D49ACF /* CodeCampData.m in Sources */ = {isa = PBXBuildFile; fileRef = 961877711139C8E000D49ACF /* CodeCampData.m */; };
 		961877E11139D1E000D49ACF /* NewsDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 961877E01139D1E000D49ACF /* NewsDetailView.xib */; };
 		961877F11139D32700D49ACF /* NewsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 961877F01139D32700D49ACF /* NewsDetailViewController.m */; };
-		968E9E911139E85700706DFE /* campfire.png in Resources */ = {isa = PBXBuildFile; fileRef = 968E9E901139E85700706DFE /* campfire.png */; };
+		9643D55F113AEADE00348766 /* SessionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9643D55D113AEADE00348766 /* SessionDetailViewController.m */; };
+		9643D560113AEADE00348766 /* SessionDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9643D55E113AEADE00348766 /* SessionDetailView.xib */; };
+		9643D5B4113AFADA00348766 /* SessionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9643D5B3113AFADA00348766 /* SessionTableViewCell.xib */; };
+		9643D5F7113AFFF000348766 /* InfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9643D5F6113AFFF000348766 /* InfoView.xib */; };
 		9692310D11395C2A009F8613 /* RootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9692310C11395C2A009F8613 /* RootTabBarController.m */; };
 		9692311511395C9F009F8613 /* document1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9692311211395C9F009F8613 /* document1.png */; };
 		9692311611395C9F009F8613 /* groupIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9692311311395C9F009F8613 /* groupIcon.png */; };
@@ -48,7 +51,11 @@
 		961877E01139D1E000D49ACF /* NewsDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsDetailView.xib; sourceTree = "<group>"; };
 		961877EF1139D32700D49ACF /* NewsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsDetailViewController.h; sourceTree = "<group>"; };
 		961877F01139D32700D49ACF /* NewsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsDetailViewController.m; sourceTree = "<group>"; };
-		968E9E901139E85700706DFE /* campfire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = campfire.png; sourceTree = "<group>"; };
+		9643D55C113AEADE00348766 /* SessionDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionDetailViewController.h; sourceTree = "<group>"; };
+		9643D55D113AEADE00348766 /* SessionDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionDetailViewController.m; sourceTree = "<group>"; };
+		9643D55E113AEADE00348766 /* SessionDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SessionDetailView.xib; path = Classes/SessionDetailView.xib; sourceTree = "<group>"; };
+		9643D5B3113AFADA00348766 /* SessionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SessionTableViewCell.xib; sourceTree = "<group>"; };
+		9643D5F6113AFFF000348766 /* InfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoView.xib; sourceTree = "<group>"; };
 		9692310B11395C2A009F8613 /* RootTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTabBarController.h; sourceTree = "<group>"; };
 		9692310C11395C2A009F8613 /* RootTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTabBarController.m; sourceTree = "<group>"; };
 		9692311211395C9F009F8613 /* document1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = document1.png; sourceTree = "<group>"; };
@@ -105,6 +112,8 @@
 				96F1EC69113A23A4002135FB /* SessionItem.m */,
 				96F1EC7B113A2656002135FB /* SessionTableViewController.h */,
 				96F1EC7C113A2656002135FB /* SessionTableViewController.m */,
+				9643D55C113AEADE00348766 /* SessionDetailViewController.h */,
+				9643D55D113AEADE00348766 /* SessionDetailViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -141,8 +150,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9643D55E113AEADE00348766 /* SessionDetailView.xib */,
 				96F1EC50113A0EEB002135FB /* campfire2.png */,
-				968E9E901139E85700706DFE /* campfire.png */,
 				9692314B1139C123009F8613 /* NewsTableView.xib */,
 				9692311211395C9F009F8613 /* document1.png */,
 				9692311311395C9F009F8613 /* groupIcon.png */,
@@ -152,6 +161,8 @@
 				961877E01139D1E000D49ACF /* NewsDetailView.xib */,
 				96F1EC5D113A1EC5002135FB /* NewsTableViewCell.xib */,
 				96F1EC80113A26A5002135FB /* SessionTableView.xib */,
+				9643D5B3113AFADA00348766 /* SessionTableViewCell.xib */,
+				9643D5F6113AFFF000348766 /* InfoView.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -217,10 +228,12 @@
 				9692311711395C9F009F8613 /* shareIcon.png in Resources */,
 				9692314C1139C123009F8613 /* NewsTableView.xib in Resources */,
 				961877E11139D1E000D49ACF /* NewsDetailView.xib in Resources */,
-				968E9E911139E85700706DFE /* campfire.png in Resources */,
 				96F1EC51113A0EEB002135FB /* campfire2.png in Resources */,
 				96F1EC5E113A1EC5002135FB /* NewsTableViewCell.xib in Resources */,
 				96F1EC81113A26A5002135FB /* SessionTableView.xib in Resources */,
+				9643D560113AEADE00348766 /* SessionDetailView.xib in Resources */,
+				9643D5B4113AFADA00348766 /* SessionTableViewCell.xib in Resources */,
+				9643D5F7113AFFF000348766 /* InfoView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +254,7 @@
 				96FACC3F1139DF2400FAC678 /* NewsItem.m in Sources */,
 				96F1EC6A113A23A4002135FB /* SessionItem.m in Sources */,
 				96F1EC7D113A2656002135FB /* SessionTableViewController.m in Sources */,
+				9643D55F113AEADE00348766 /* SessionDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

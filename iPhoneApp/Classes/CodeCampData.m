@@ -15,6 +15,7 @@
 @synthesize newsItems;
 @synthesize sessionItems;
 
+
 -(void) loadWithTestData
 {
 	NewsItem *item;

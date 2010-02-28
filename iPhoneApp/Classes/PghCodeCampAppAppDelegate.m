@@ -13,6 +13,7 @@
 @synthesize window;
 @synthesize rootController;
 @synthesize newsNavController;
+@synthesize sessionNavController;
 @synthesize codeCampData;
 
 
@@ -30,6 +31,7 @@
 - (void)dealloc {
 	[codeCampData release];
 	[rootController release];
+	[sessionNavController release];
 	[newsNavController release];
     [window release];
     [super dealloc];

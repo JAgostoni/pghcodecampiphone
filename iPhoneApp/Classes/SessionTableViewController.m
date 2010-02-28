@@ -7,9 +7,12 @@
 //
 
 #import "SessionTableViewController.h"
+#import "SessionDetailViewController.h"
 
 
 @implementation SessionTableViewController
+
+@synthesize detailView;
 
 /*
 - (id)initWithStyle:(UITableViewStyle)style {
@@ -69,6 +72,7 @@
 }
 
 - (void)viewDidUnload {
+	[detailView release];
 	// Release any retained subviews of the main view.
 	// e.g. self.myOutlet = nil;
 }
@@ -91,26 +95,43 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     static NSString *CellIdentifier = @"Cell";
-    
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+		[[NSBundle mainBundle] loadNibNamed:@"SessionTableViewCell" owner:self options:nil];
+		cell = detailView;
+		self.detailView = nil;
     }
     
     // Set up the cell...
 	SessionItem *item;
 	item = [codeCampData.sessionItems objectAtIndex:[indexPath row]];
-	[cell setText: item.title];
-	[item release];
+	[(UILabel *)[cell viewWithTag:1] setText:item.title];
+	[(UILabel *)[cell viewWithTag:2] setText:item.synopsis];
+	[(UILabel *)[cell viewWithTag:3] setText:item.presenter];
+	[(UILabel *)[cell viewWithTag:4] setText:item.time];
+	[(UILabel *)[cell viewWithTag:5] setText:item.room];
+
+	
     return cell;
 }
 
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Navigation logic may go here. Create and push another view controller.
-	// AnotherViewController *anotherViewController = [[AnotherViewController alloc] initWithNibName:@"AnotherView" bundle:nil];
-	// [self.navigationController pushViewController:anotherViewController];
-	// [anotherViewController release];
+	
+	SessionDetailViewController *nextView;
+	nextView = [[SessionDetailViewController alloc] initWithNibName:@"SessionDetailView" bundle:nil];
+	PghCodeCampAppAppDelegate *app = [[UIApplication sharedApplication] delegate];
+	[app.sessionNavController pushViewController:nextView animated:TRUE];
+	
+	SessionItem *item = [codeCampData.sessionItems objectAtIndex:[indexPath row]];	
+	[nextView.presenter setText:item.presenter];
+	[nextView.time setText:item.time];
+	[nextView.room setText:item.room];
+	[nextView.synopsis setText:item.synopsis];
+	nextView.title = item.title;
+	
+	[nextView release];
+
 }
 
 

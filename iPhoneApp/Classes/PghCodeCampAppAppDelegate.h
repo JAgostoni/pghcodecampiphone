@@ -15,12 +15,14 @@
     UIWindow *window;
 	IBOutlet RootTabBarController *rootController;
 	IBOutlet NewsNavController *newsNavController;
+	IBOutlet UINavigationController *sessionNavController;
 	CodeCampData *codeCampData;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet RootTabBarController *rootController;
 @property (nonatomic, retain) IBOutlet NewsNavController *newsNavController;
+@property (nonatomic, retain) IBOutlet UINavigationController *sessionNavController;
 @property (nonatomic, retain) CodeCampData *codeCampData;
 
 @end
