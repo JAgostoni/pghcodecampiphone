@@ -7,15 +7,24 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "NewsItem.h"
+#import "SessionItem.h"
 
 @interface CodeCampData : NSObject {
 	NSMutableArray *newsItems;
 	NSMutableArray *sessionItems;
+	NewsItem *currentNewsItem;
+	SessionItem *currentSessionItem;
+	NSString *currentNodeName;
 	
 }
 
 @property (nonatomic, retain) NSMutableArray *newsItems;
 @property (nonatomic, retain) NSMutableArray *sessionItems;
+@property (nonatomic, retain) NSString *currentNodeName;
+@property (nonatomic, retain) NewsItem *currentNewsItem;
+@property (nonatomic, retain) SessionItem *currentSessionItem;
+
 -(void) loadWithTestData;
+-(void) loadFromWeb;
 @end
