@@ -1,0 +1,49 @@
+<CodeCampData>
+   <NewsItems>
+		<NewsItem>
+			<NewsTitle>News Item 1</NewsTitle>
+			<Author>Jason</Author>
+			<Date>Feb 28</Date>
+			<Text>
+				This is the first news item.
+			</Text>
+		</NewsItem>
+		<NewsItem>
+			<NewsTitle>News Item 2</NewsTitle>
+			<Author>Mike</Author>
+			<Date>Feb 26</Date>
+			<Text>
+				This is the another news item.
+			</Text>
+		</NewsItem>
+   </NewsItems>
+   
+   <Sessions>
+		<Session>
+			<Title>Session Title 1</Title>
+			<Presenter>Jason Agostoni</Presenter>
+			<Time>8:00 am</Time>
+			<Room>Rm 102</Room>
+			<Abstract>
+				This is the abstract of the first session.  This is where you would put the longer description
+				of the sessionb including any URLs like http://www.bing.com.
+			</Abstract>
+			<Bio>
+				This is where you would put the BIO of the presentor.
+			</Bio>
+		</Session>
+		<Session>
+			<Title>Session Title 2</Title>
+			<Presenter>Mike Snell</Presenter>
+			<Time>8:00 am</Time>
+			<Room>Rm 103</Room>
+			<Abstract>
+				This is the abstract of the second session.  This is where you would put the longer description
+				of the sessionb including any URLs like http://www.bing.com.
+			</Abstract>
+			<Bio>
+				This is where you would put the BIO of the presentor.
+			</Bio>
+		</Session>
+   </Sessions>
+</CodeCampData>

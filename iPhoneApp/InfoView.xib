@@ -276,6 +276,7 @@
 								<bool key="IBUIDelaysContentTouches">NO</bool>
 								<bool key="IBUICanCancelContentTouches">NO</bool>
 								<bool key="IBUIBouncesZoom">NO</bool>
+								<bool key="IBUIEditable">NO</bool>
 								<string type="base64-UTF8" key="IBUIText">Q29kZSBDYW1wIGlzIGEgZnJlZSwgMS1kYXkgZXZlbnQgcHV0IG9uIGJ5IHRoZSBsb2NhbCBQaXR0c2J1
 cmdoIGNvbW11bml0eSB0byBoZWxwIHByb21vdGUgc29mdHdhcmUgZGV2ZWxvcG1lbnQgaW4gdGhlIGNv
 bW11bml0eS4gCgpDb2RlIENhbXBzIGhhdmUgYmVlbiB0YWtpbmcgcGxhY2UgYWxsIG92ZXIgdGhlIGNv
@@ -469,7 +470,7 @@ aWVuY2VzLg</string>
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>UIViewController</string>
 					<string>UIResponder</string>
-					<string>{{354, 461}, {320, 431}}</string>
+					<string>{{354, 125}, {320, 431}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
