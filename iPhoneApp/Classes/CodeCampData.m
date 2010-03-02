@@ -62,17 +62,41 @@
 
 -(void) loadFromWeb
 {
+	NSData *rawData = [[NSData alloc] initWithContentsOfURL:[NSURL URLWithString:@"http://localhost/SampleData.xml"]];
+	[self loadFromXML:rawData];
+	[self saveToDocuments:rawData];
+	
+	[rawData release];
+	//[self loadFromDocuments];
+}
+
+-(void) loadFromDocuments
+{
+	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+	NSString *path = [[paths objectAtIndex:0] stringByAppendingString:@"/CodeCampData"];
+
+	NSData *rawData = [[NSData alloc] initWithContentsOfFile:path];
+	[self loadFromXML:rawData];
+	[rawData release];
+	
+	//[paths release];
+	//[path release];
+}
+-(void) loadFromXML: (NSData *) rawData
+{
 	// Reset
 	[newsItems release];
 	[sessionItems release];
 	newsItems = [[NSMutableArray alloc] init];
 	sessionItems = [[NSMutableArray alloc] init];
-	NSXMLParser *xmlData;
-	xmlData = [[NSXMLParser alloc] initWithContentsOfURL: [NSURL URLWithString:@"http://localhost/SampleData.xml"]];
-	[xmlData setDelegate:self];
 	currentNodeName = [[NSString alloc] init];
+
+	NSXMLParser *xmlData;
+	xmlData = [[NSXMLParser alloc] initWithData:rawData];
+	[xmlData setDelegate:self];
 	[xmlData parse];
 	[xmlData release];
+	
 }
 -(void)dealloc 
 {
@@ -130,6 +154,17 @@
 		[self.currentSessionItem release];
     }
 	self.currentNodeName = @"";
+}
+
+- (void) saveToDocuments:(NSData *)xmlData
+{
+	// Get documents path
+	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+	NSString *path = [[paths objectAtIndex:0] stringByAppendingString:@"/CodeCampData"];
+	//BOOL success = [NSKeyedArchiver archiveRootObject:self toFile:path];
+	[xmlData writeToFile:path atomically:FALSE];
+	//[path release];
+	//[paths release];
 }
 
 @end

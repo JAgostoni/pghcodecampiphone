@@ -23,6 +23,7 @@
 	self.codeCampData = [CodeCampData alloc];
 	//[self.codeCampData loadWithTestData];
 	[self.codeCampData loadFromWeb];
+	//[self.codeCampData loadFromDocuments];
 	[window addSubview:rootController.view];
     [window makeKeyAndVisible];
 }
