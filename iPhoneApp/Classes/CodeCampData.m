@@ -10,6 +10,7 @@
 #import "NewsItem.h"
 #import "SessionItem.h"
 
+
 @implementation CodeCampData
 
 @synthesize newsItems;
@@ -60,6 +61,22 @@
 	[session release];
 }
 
+-(void) loadDefaultData
+{
+	
+	NewsItem *item;
+	
+	item = [NewsItem alloc];
+	item.title = @"Welcome!";
+	item.content = @"This application requires a data connection to download the conference data.";
+	item.author = @"Code Camp";
+	item.postedDate = @"Today";
+	self.newsItems = [[NSMutableArray alloc] initWithObjects: item, nil];
+	[item release];
+
+	self.sessionItems = [[NSMutableArray alloc] init];
+	
+}
 -(void) loadFromWeb
 {
 	NSData *rawData = [[NSData alloc] initWithContentsOfURL:[NSURL URLWithString:@"http://localhost/SampleData.xml"]];
@@ -74,13 +91,14 @@
 {
 	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
 	NSString *path = [[paths objectAtIndex:0] stringByAppendingString:@"/CodeCampData"];
-
-	NSData *rawData = [[NSData alloc] initWithContentsOfFile:path];
-	[self loadFromXML:rawData];
-	[rawData release];
-	
-	//[paths release];
-	//[path release];
+	if ([[NSFileManager defaultManager] fileExistsAtPath:path])
+	{
+		NSData *rawData = [[NSData alloc] initWithContentsOfFile:path];
+		[self loadFromXML:rawData];
+		[rawData release];
+	} else {
+		[self loadDefaultData];
+	}
 }
 -(void) loadFromXML: (NSData *) rawData
 {
@@ -166,5 +184,6 @@
 	//[path release];
 	//[paths release];
 }
+
 
 @end

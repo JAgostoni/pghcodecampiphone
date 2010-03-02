@@ -13,7 +13,6 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
-		9616FB44113B1BB80062F1BA /* SampleData.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9616FB43113B1BB80062F1BA /* SampleData.xml */; };
 		961877721139C8E000D49ACF /* CodeCampData.m in Sources */ = {isa = PBXBuildFile; fileRef = 961877711139C8E000D49ACF /* CodeCampData.m */; };
 		961877E11139D1E000D49ACF /* NewsDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 961877E01139D1E000D49ACF /* NewsDetailView.xib */; };
 		961877F11139D32700D49ACF /* NewsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 961877F01139D32700D49ACF /* NewsDetailViewController.m */; };
@@ -21,6 +20,7 @@
 		9643D560113AEADE00348766 /* SessionDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9643D55E113AEADE00348766 /* SessionDetailView.xib */; };
 		9643D5B4113AFADA00348766 /* SessionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9643D5B3113AFADA00348766 /* SessionTableViewCell.xib */; };
 		9643D5F7113AFFF000348766 /* InfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9643D5F6113AFFF000348766 /* InfoView.xib */; };
+		966995FD113CBC920022F180 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 966995FC113CBC920022F180 /* SystemConfiguration.framework */; };
 		9692310D11395C2A009F8613 /* RootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9692310C11395C2A009F8613 /* RootTabBarController.m */; };
 		9692311511395C9F009F8613 /* document1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9692311211395C9F009F8613 /* document1.png */; };
 		9692311611395C9F009F8613 /* groupIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9692311311395C9F009F8613 /* groupIcon.png */; };
@@ -58,6 +58,7 @@
 		9643D55E113AEADE00348766 /* SessionDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SessionDetailView.xib; path = Classes/SessionDetailView.xib; sourceTree = "<group>"; };
 		9643D5B3113AFADA00348766 /* SessionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SessionTableViewCell.xib; sourceTree = "<group>"; };
 		9643D5F6113AFFF000348766 /* InfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoView.xib; sourceTree = "<group>"; };
+		966995FC113CBC920022F180 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		9692310B11395C2A009F8613 /* RootTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTabBarController.h; sourceTree = "<group>"; };
 		9692310C11395C2A009F8613 /* RootTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTabBarController.m; sourceTree = "<group>"; };
 		9692311211395C9F009F8613 /* document1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = document1.png; sourceTree = "<group>"; };
@@ -87,6 +88,7 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				966995FD113CBC920022F180 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,6 +175,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				966995FC113CBC920022F180 /* SystemConfiguration.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
@@ -237,7 +240,6 @@
 				9643D560113AEADE00348766 /* SessionDetailView.xib in Resources */,
 				9643D5B4113AFADA00348766 /* SessionTableViewCell.xib in Resources */,
 				9643D5F7113AFFF000348766 /* InfoView.xib in Resources */,
-				9616FB44113B1BB80062F1BA /* SampleData.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

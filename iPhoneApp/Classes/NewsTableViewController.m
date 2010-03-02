@@ -28,7 +28,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	self.title = @"News";
-	
 	PghCodeCampAppAppDelegate *app = [[UIApplication sharedApplication] delegate];
 	codeCampData = app.codeCampData;
 	
