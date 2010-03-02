@@ -7,6 +7,13 @@
 //
 
 #import "PghCodeCampAppAppDelegate.h"
+#import <SystemConfiguration/SCNetworkReachability.h>
+#import <sys/socket.h>
+#import <netinet/in.h>
+#import <netinet6/in6.h>
+#import <arpa/inet.h>
+#import <ifaddrs.h>
+#import <netdb.h>
 
 @implementation PghCodeCampAppAppDelegate
 
@@ -22,10 +29,22 @@
     // Load data
 	self.codeCampData = [CodeCampData alloc];
 	//[self.codeCampData loadWithTestData];
-	[self.codeCampData loadFromWeb];
-	//[self.codeCampData loadFromDocuments];
+	//[self.codeCampData loadFromWeb];
+	
 	[window addSubview:rootController.view];
+	
     [window makeKeyAndVisible];
+	[self.codeCampData loadFromDocuments];
+	
+	PghCodeCampAppAppDelegate *app = [[UIApplication sharedApplication] delegate];
+	
+	
+	if(self.isNetworkReachable) {
+		application.networkActivityIndicatorVisible = YES;
+		[app.codeCampData loadFromWeb];
+		application.networkActivityIndicatorVisible = NO;
+	}
+
 }
 
 
@@ -38,5 +57,16 @@
     [super dealloc];
 }
 
-
+- (BOOL) isNetworkReachable
+{
+	struct sockaddr_in zeroAddress;
+    bzero(&zeroAddress, sizeof(zeroAddress));
+    zeroAddress.sin_len = sizeof(zeroAddress);
+    zeroAddress.sin_family = AF_INET;
+	SCNetworkReachabilityRef reachability = SCNetworkReachabilityCreateWithAddress(kCFAllocatorDefault, (const struct sockaddr*)&zeroAddress);
+	SCNetworkReachabilityFlags flags;
+	SCNetworkReachabilityGetFlags(reachability, &flags);
+	
+	return flags & kSCNetworkFlagsReachable;
+}
 @end

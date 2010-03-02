@@ -25,5 +25,6 @@
 @property (nonatomic, retain) IBOutlet UINavigationController *sessionNavController;
 @property (nonatomic, retain) CodeCampData *codeCampData;
 
+- (BOOL) isNetworkReachable;
 @end
 
