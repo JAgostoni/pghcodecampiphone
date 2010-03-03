@@ -13,6 +13,7 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		9614AE9A113DE21B00ABC5B1 /* DefaultData.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9614AE99113DE21B00ABC5B1 /* DefaultData.xml */; };
 		961877721139C8E000D49ACF /* CodeCampData.m in Sources */ = {isa = PBXBuildFile; fileRef = 961877711139C8E000D49ACF /* CodeCampData.m */; };
 		961877E11139D1E000D49ACF /* NewsDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 961877E01139D1E000D49ACF /* NewsDetailView.xib */; };
 		961877F11139D32700D49ACF /* NewsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 961877F01139D32700D49ACF /* NewsDetailViewController.m */; };
@@ -47,6 +48,7 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* PghCodeCampApp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PghCodeCampApp_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* PghCodeCampApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PghCodeCampApp-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		9614AE99113DE21B00ABC5B1 /* DefaultData.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = DefaultData.xml; sourceTree = "<group>"; };
 		9616FB43113B1BB80062F1BA /* SampleData.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SampleData.xml; sourceTree = "<group>"; };
 		961877701139C8E000D49ACF /* CodeCampData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeCampData.h; sourceTree = "<group>"; };
 		961877711139C8E000D49ACF /* CodeCampData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeCampData.m; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 				9643D5B3113AFADA00348766 /* SessionTableViewCell.xib */,
 				9643D5F6113AFFF000348766 /* InfoView.xib */,
 				9616FB43113B1BB80062F1BA /* SampleData.xml */,
+				9614AE99113DE21B00ABC5B1 /* DefaultData.xml */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 				9643D560113AEADE00348766 /* SessionDetailView.xib in Resources */,
 				9643D5B4113AFADA00348766 /* SessionTableViewCell.xib in Resources */,
 				9643D5F7113AFFF000348766 /* InfoView.xib in Resources */,
+				9614AE9A113DE21B00ABC5B1 /* DefaultData.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

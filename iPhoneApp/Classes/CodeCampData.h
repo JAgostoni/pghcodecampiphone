@@ -28,6 +28,7 @@
 -(void) loadWithTestData;
 -(void) loadFromWeb;
 -(void) loadFromDocuments;
+-(void) loadFromBundle;
 -(void) loadFromXML: (NSData *)rawData;
 -(void) saveToDocuments: (NSData *)xmlData;
 @end
