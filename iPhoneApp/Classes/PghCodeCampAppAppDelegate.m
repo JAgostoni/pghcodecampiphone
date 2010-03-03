@@ -34,7 +34,7 @@
 	[window addSubview:rootController.view];
 	
     [window makeKeyAndVisible];
-	[self.codeCampData loadFromDocuments];
+	[self.codeCampData loadFromBundle];
 	
 	PghCodeCampAppAppDelegate *app = [[UIApplication sharedApplication] delegate];
 	

@@ -1,0 +1,21 @@
+<CodeCampData>
+   <NewsItems>
+		<NewsItem>
+			<NewsTitle>Welcome!</NewsTitle>
+			<Author>Jason</Author>
+			<Date>March 2</Date>
+			<Text>Thanks for downloading the Pittsburgh Code Camp application!  In order to get the latest code camp news and session information please make sure you are connected to your data network then reload the app!</Text>
+		</NewsItem>
+   </NewsItems>
+   
+   <Sessions>
+		<Session>
+			<Title>Creating the Code Camp iPhone Application</Title>
+			<Presenter>Jason Agostoni</Presenter>
+			<Time>TBD</Time>
+			<Room>TBD</Room>
+			<Abstract>This session will take you through the creation of the Code Camp iPhone application. It will cover basic Objective-C and iPhone application development.  No previous experience is needed!</Abstract>
+			<Bio>Jason Agostoni is a Sr. Software Architet with CEI with a focus on...</Bio>
+		</Session>
+   </Sessions>
+</CodeCampData>

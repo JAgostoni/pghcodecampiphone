@@ -79,7 +79,7 @@
 }
 -(void) loadFromWeb
 {
-	NSData *rawData = [[NSData alloc] initWithContentsOfURL:[NSURL URLWithString:@"http://localhost/SampleData.xml"]];
+	NSData *rawData = [[NSData alloc] initWithContentsOfURL:[NSURL URLWithString:@"http://www.fileden.com/files/2010/3/3/2781168/CodeCampData.xml"]];
 	[self loadFromXML:rawData];
 	[self saveToDocuments:rawData];
 	
@@ -100,6 +100,21 @@
 		[self loadDefaultData];
 	}
 }
+
+-(void) loadFromBundle
+{
+	// Only load if documents file doesn't exist
+	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+	NSString *docPath = [[paths objectAtIndex:0] stringByAppendingString:@"/CodeCampData"];
+	if (![[NSFileManager defaultManager] fileExistsAtPath:docPath])
+	{
+		NSString *bundlePath = [[[NSBundle mainBundle] resourcePath] stringByAppendingString:@"/DefaultData.xml"];
+		[[NSFileManager defaultManager] copyItemAtPath:bundlePath toPath:docPath error:nil];
+	}
+	
+	[self loadFromDocuments];
+}
+
 -(void) loadFromXML: (NSData *) rawData
 {
 	// Reset
