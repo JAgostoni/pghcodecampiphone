@@ -1,21 +1,242 @@
 <CodeCampData>
    <NewsItems>
+     <NewsItem>
+       <NewsTitle>Sessions updated!</NewsTitle>
+       <Author>Jason</Author>
+       <Date>Mar 8</Date>
+       <Text>The session topics have been updated!  Please note the sessions are subject to change and there will be more to come!</Text>
+     </NewsItem>
 		<NewsItem>
 			<NewsTitle>Welcome!</NewsTitle>
 			<Author>Jason</Author>
-			<Date>March 2</Date>
+			<Date>Mar 2</Date>
 			<Text>Thanks for downloading the Pittsburgh Code Camp application!  In order to get the latest code camp news and session information please make sure you are connected to your data network then reload the app!</Text>
 		</NewsItem>
    </NewsItems>
-   
-   <Sessions>
-		<Session>
-			<Title>Creating the Code Camp iPhone Application</Title>
-			<Presenter>Jason Agostoni</Presenter>
-			<Time>TBD</Time>
-			<Room>TBD</Room>
-			<Abstract>This session will take you through the creation of the Code Camp iPhone application. It will cover basic Objective-C and iPhone application development.  No previous experience is needed!</Abstract>
-			<Bio>Jason Agostoni is a Sr. Software Architet with CEI with a focus on...</Bio>
-		</Session>
-   </Sessions>
+
+  <Sessions>
+    <Session>
+      <Title>Creating the Code Camp iPhone Applicaiton</Title>
+      <Presenter>Jason Agostoni</Presenter>
+      <Time>TBD</Time>
+      <Room>TBD</Room>
+      <Abstract>In this session I will walk through creating an iPhone application using Apple's development tools and technologies. The demonstrations will include walking through the creation of the Code Camp iPhone application. No previous experience with Apple development is required.</Abstract>
+      <Bio>Jason is a Sr. Software Architect with CEI and provides consulting services to a variety of large enterprises to mid-size companies. Jason specializes in Microsoft.NET application development and architecture, BizTalk Server, Team Foundation Server and most of the Microsoft platforms and technologies.</Bio>
+    </Session>
+    <Session>
+      <Title>Code Camp Raffle App 2.0</Title>
+      <Presenter>David  Hoerster</Presenter>
+      <Time>TBD</Time>
+      <Room>TBD</Room>
+      <Abstract>The Code Camp Raffle App from last year's Code Camp has been given an overhaul for this year's camp. This session will explore what went into the raffle application and will focus almost exclusively on code. A session title slide will probably be the only PowerPoint used in this session. Technologies used will include ASP.NET 4, jQuery, jQuery UI, JSON, WCF REST Services, CSS Sprites and maybe even a little Azure</Abstract>
+      <Bio>David Hoerster, who has been working with the Microsoft .NET Framework since the early 1.0 betas, is Resources Global Professional's Director of Technology for the policyIQ product group in Pittsburgh. Prior to that, he worked for CIBER as their Microsoft Practice Director since 2003. Prior to that, David has worked for several software product development companies in the role of software engineer and architect and has over 15 years of industry experience. David is also owner of AgileWays, a technology services firm specializing in providing software architecture, design and development solutions based upon Microsoft technologies. David is the Pennsylvania INETA Membership Mentor, the co-chair of the Pittsburgh .NET User's Group (PGHDOTNET) and is also a frequent speaker at Pittsburgh's user group and code camp events. As co-chair of PGHDOTNET, David's responsibilities include recruiting new members to the group, helping with the logistics of the events, and also encouraging community participation by recruiting members to speak at the regular meetings. For Pittsburgh's Code Camp events, David has been a track coordinator where he was responsible for recruiting speakers, determining appropriate track topics, helping with planning and logistics and assisting with the overall planning of the event. He has also been a speaker at several Philadelphia's Code Camps, where his presentations have included topics on Microsoft BizTalk Server and Windows Communication Foundation (WCF).</Bio>
+    </Session>
+    <Session>
+      <Title>Creating and Consuming Shared Content with VS 2010</Title>
+      <Presenter>Mike Snell</Presenter>
+      <Time>TBD</Time>
+      <Room>TBD</Room>
+      <Abstract>Learn how to get the most out of the Visual Studio community content. In this session, we will write some code to share with the community, package it up, deploy it, and demonstrate how you can find and use it in your environment.</Abstract>
+      <Bio>Mike Snell is a author on all things Visual Studio and .NET (Visual Studio Unleashed 2010, ASP.NET 4.0 Training Kit, among others). Mike is also a Microsoft Regional Director in the Pittsburgh Area.</Bio>
+    </Session>
+    <Session>
+      <Title>Getting Started with Entity Framework 4</Title>
+      <Presenter>Dane Morgridge</Presenter>
+      <Time>TBD</Time>
+      <Room>TBD</Room>
+      <Abstract>With .Net 3.5 Microsoft release Linq to Sql and with .Net 3.5 SP1 came the Entity Framework, both powerful ORM tools leveraging Linq technology. Entity Framework v1, while usable, was definitely lacking some important features and the Entity Framework team delivered with version 4 coming with Visual Studio 2010. In this session we will look at Entity Framework 4 from the ground level and you will get a solid understanding of it basic principles. We will also go through all of the new features in Entity Framework 4 and see how far it's come since the initial release. If you've never taken a look at Entity Framework, now is the time as version 4 is the real deal.</Abstract>
+      <Bio>Dane Morgridge has been a developer for 9+ years and has worked with .Net and C# since the first public beta. His current passions are Entity Framework, WPF, WCF, Silverlight and LINQ. He works mostly with C#, but is also a big fan of whatever new technology he happens to come across. In addition to software development, he is the host of the Community Megaphone Podcast and also enjoys dabbling in graphic design, video special effects and hockey. When not with his family he is usually learning some new technology or working on some side projects. He is currently working as the Senior Interactive Developer at Roska Direct in Montgomeryville, PA. He can be reached through is blog http://geekswithblogs.net/danemorgridge or on Twitter @danemorgridge.</Bio>
+    </Session>
+    <Session>
+      <Title>Real World Entity Framework</Title>
+      <Presenter>Dane Morgridge</Presenter>
+      <Time>TBD</Time>
+      <Room>TBD</Room>
+      <Abstract>Most applications connect to a database at some point and ORM tools, like Entity Framework, can make that process a lot simpler. Whether you have worked with the Entity Framework before, sometimes it takes real world examples to make it all click. In this session we will look at a few real world examples using Entity Framework with technologies like ASP.Net MVC, Silverlight and WCF. We will look at some of the common issues when building applications with any ORM solution and how the new features in Entity Framework 4 help reduce development time and frustration. Most importantly, you will get to see how Entity Framework can be utilized in real applications along with some tips, tricks and gotchas.</Abstract>
+      <Bio>Dane Morgridge has been a developer for 9+ years and has worked with .Net and C# since the first public beta. His current passions are Entity Framework, WPF, WCF, Silverlight and LINQ. He works mostly with C#, but is also a big fan of whatever new technology he happens to come across. In addition to software development, he is the host of the Community Megaphone Podcast and also enjoys dabbling in graphic design, video special effects and hockey. When not with his family he is usually learning some new technology or working on some side projects. He is currently working as the Senior Interactive Developer at Roska Direct in Montgomeryville, PA. He can be reached through is blog http://geekswithblogs.net/danemorgridge or on Twitter @danemorgridge.</Bio>
+    </Session>
+    <Session>
+      <Title>Design and Build Better Code</Title>
+      <Presenter>Kevin Israel</Presenter>
+      <Time>TBD</Time>
+      <Room>TBD</Room>
+      <Abstract>This session will provide developers with 12 definitive ideas and techniques that can be used immediately that will improve not only the code you write, but the way that you think about the code you write. The goal of this session is to help developers write more effective code. All code presented will be in C#.</Abstract>
+      <Bio>Kevin Israel is a Solutions Architect with Ironworks Consulting in Richmond, VA. He has a strong background in SharePoint architecture, Application Lifecycle Management with Visual Studio Team System and delivering architectural solutions of all types with a focus on scalability, flexibility and high availability. He has been developing software using Microsoft Technologies for 10 years and remains a passionate technologist. Kevin is a Microsoft MVP in Team System. He is a community activist and currently leads the Innsbrook .Net User Group, helps with the Richmond Code Camp, co-founded the SharePoint Saturday events, and enjoy presenting topics at various community events in the area. When not working or involved in community events, Kevin enjoys camping, fishing and hunting, reading, Aikido, coding for fun and spending time with his daughter. You can catch him occasionally blast a tweet on Twitter as @kevdadev.</Bio>
+    </Session>
+    <Session>
+      <Title>A Look at Parallel Programming Patterns</Title>
+      <Presenter>John Blumenauer</Presenter>
+      <Time>TBD</Time>
+      <Room>TBD</Room>
+      <Abstract>The age of multi-core computing has brought with it a new challenge of developing applications with a better user experiences, including improved performance, increased responsiveness and reduced latency. When performance is really critical, it's important to understand how the Microsoft Parallel Computing Platform, consisting of Task Parallel Library, PLINQ and Coordination Data Structures, can be implemented to take advantage of multi-core technology. In this session, we'll take a look at implementations of these patterns via examples and demos.</Abstract>
+      <Bio>John Blumenauer is Director of Software Engineering for Metrico Wireless, Inc. in Frederick, MD. Before working in the wireless industry, John designed and developed applications of all sizes in a variety of areas including aerospace/defense, point of sale, engineering and financial. During John's 14-year career in software development, he has worked with a variety of languages and has contributed to projects of all sizes, including large scale enterprise applications. He enjoys sharing his knowledge and valuable experience with the development community by speaking at code camps and user groups throughout the region. John is the President and co-founder of the Frederick (MD) .NET User Group (www.frednug.org. His blog can be found at http://geekswithblogs.net/jblumenauer.</Bio>
+    </Session>
+    <Session>
+      <Title>Developing a WPF Custom Control</Title>
+      <Presenter>John Blumenauer</Presenter>
+      <Time>TBD</Time>
+      <Room>TBD</Room>
+      <Abstract>Despite being a rather powerful user interface framework, sometimes it may seem necessary to create a custom Windows Presentation Foundation control to solve a new business requirement. The question is do you really need to create a custom control or can an existing control be customized or extended instead? In this session, I'll cover the guidelines for determining whether a custom control is required and walk-thru the process of extending a control as well as creating one from scratch.</Abstract>
+      <Bio>John Blumenauer is Director of Software Engineering for Metrico Wireless, Inc. in Frederick, MD. Before working in the wireless industry, John designed and developed applications of all sizes in a variety of areas including aerospace/defense, point of sale, engineering and financial. During John's 14-year career in software development, he has worked with a variety of languages and has contributed to projects of all sizes, including large scale enterprise applications. He enjoys sharing his knowledge and valuable experience with the development community by speaking at code camps and user groups throughout the region. John is the President and co-founder of the Frederick (MD) .NET User Group (www.frednug.org. His blog can be found at http://geekswithblogs.net/jblumenauer.</Bio>
+    </Session>
+    <Session>
+      <Title>SQL Server 2008 for Developers</Title>
+      <Presenter>John Sterrett</Presenter>
+      <Time>TBD</Time>
+      <Room>TBD</Room>
+      <Abstract>The goal of this presentation is to provide demos that give an overview of the new features included within SQL Server 2008. This presentation will include but not be limited to Management Studio (SSMS) Enhancements, FILESTREAM, MERGE, Table-Valued Parameters, Date and Time changes.</Abstract>
+      <Bio>John Sterrett is a Database Administrator and Web Engineering Specialist who currently works for Orrick, Herrington and Sutcliffe LLP. I work in the Global Operation Center which is located in Wheeling, WV (Pittsburgh Area). My area of expertise is developing data driven applications and database management.</Bio>
+    </Session>
+    <Session>
+      <Title>Client-side Firestarter</Title>
+      <Presenter>Chris Bannon</Presenter>
+      <Time>TBD</Time>
+      <Room>TBD</Room>
+      <Abstract>With all of the new options for developing client-centric applications it can be hard to get your feet wet. Let's jump in head first and build a app in JavaScript. We will be using ASP.NET for data access and web services accompanied by jQuery and for client-side coding. We will also touch base with the cool new AJAX 4.0 features and how easy they make AJAX development. The bottom line is we want to walk away from this session ready to test the waters in client-side development. Everyone is talking about it, Microsoft has embraced it, now we just need to do it!</Abstract>
+      <Bio>Chris Bannon is familiar with many acronyms: UX, ASP.NET, AJAX, C#, SQL and jQuery. As the Lead Web Developer at ComponentOne, he has mastered techniques such as CSS layout, unobtrusive JavaScript, semantic markup, and progressive enhancement. Chris manages ComponentOne's product lines for ASP.NET and iPhone Web development. He spends most of his time building or using the web and it is his passion. When he isn't at a computer you can find him spending time with his family, trying to golf, or pretending that he can still play ice hockey.</Bio>
+    </Session>
+    <Session>
+      <Title>Reinventing Error Handling</Title>
+      <Presenter>Edwin Ames</Presenter>
+      <Time>TBD</Time>
+      <Room>TBD</Room>
+      <Abstract>Come learn about the most significant advance in error handling since exceptions. I'll cover material from my CodeMagazine article, showing you improved tools for today and glimpses of radical possibilities for tomorrow. You'll get a working framework which supports more expressive error handlers and gives them equal access to error context information. You'll see a roadmap for adding improved error handling capabilities, including class-level error handlers and the ability to fix errors at run time. Above all, you will get a new way to look at errors.</Abstract>
+      <Bio>Edwin "Ned" Ames has worked in software development for over a decade, producing applications for clients in multiple industries ranging in size from startups to multinationals. He entered software by tinkering. You can still occasionally find him following his nose into uncharted waters. By day, Ned develops software for his employer, Yellow Book USA. After hours he tinkers with software and works on articles and presentations for the community. He also offers custom software development through his PA company, Purposeful Solutions, Inc. When not geeking out, he lives with his wife in their Philadelphia area apartment. Other interests include writing, philosophy, sushi, and cooking.</Bio>
+    </Session>
+    <Session>
+      <Title>What's new in Silverlight 4?</Title>
+      <Presenter>David Isbitski</Presenter>
+      <Time>TBD</Time>
+      <Room>TBD</Room>
+      <Abstract>The next version of Silverlight was announced recently and promises to bring a slew of new features developers have been craving. Come get a heads on look at some of the more exciting new features (Webcam, Printing, Out of Browser) as well as a roadmap of where Silverlight is heading in the coming year.</Abstract>
+      <Bio>Ever since creating his first "Choose Your Own Adventure" video game using Commodore BASIC, Dave has been fascinated by the potential of computers and the worlds they can bring to us. Debuting in the Enterprise space with Visual Basic 5, he has worked with Microsoft Technologies all of his career at various Fortune 100/500 companies. He enjoys talking about technology and has taught full day courses on many Microsoft topics as well as being a presenter at VSLive!, Re-Mix, XAMLFest, CodeCamps and other events. His current passion is showing companies in the Mid-Atlantic States the importance of good user experience and how to implement it within their Enterprise.
+
+        Dave can be found on Twitter at http://twitter.com/theDaveDev and frequently posts to his blog at http://CoolStuffWith.Net.</Bio>
+    </Session>
+    <Session>
+      <Title>Getting started with Silverlight and Blend development for business applications</Title>
+      <Presenter>Greg Lutz</Presenter>
+      <Time>TBD</Time>
+      <Room>TBD</Room>
+      <Abstract>This session will take you through the entire process for developing Silverlight applications; From setting up your development environment, through deploying your application. Along the way we will explore how Silverlight applications manage and access data, and how we can style them to look professional using Microsoft Expression Blend.</Abstract>
+      <Bio>With his broad focus in .NET development, Greg Lutz is always working in the trenches with other developers sharing the experience. Greg's background at ComponentOne includes technical support, web development, and product management. He enjoys focusing his skills in various .NET platforms including Windows Forms, WPF and Silverlight</Bio>
+    </Session>
+    <Session>
+      <Title>Introduction to ASP MVC with Iron Ruby</Title>
+      <Presenter>John Petersen</Presenter>
+      <Time>TBD</Time>
+      <Room>TBD</Room>
+      <Abstract>ASP MVC is a powerful web development framework and Ruby is a powerful and flexible dynamic language. With Microsoft's implementation of Ruby in IronRuby, we can now combine the two. In this presentation will provide an overview of the ASP MVC framework using the IronRuby language in the controller layer.</Abstract>
+      <Bio>I have been a developer for about 20 years – starting with dBase and FoxBase +. I then got into FoxPro 2.0 and VB 3 – eventually giving way to Visual FoxPro. Then along came .NET! Through that time, I have developed applications in SQL Server since version 6. I have also developed applications with Oracle versions 9i and 10g. From 1995-2001, I was a Microsoft Developer MVP. I have spoken at many user groups and industry conferences including Tech Ed and Developer Days.
+
+        In 1999, I wrote the definitive whitepaper on ADO for VFP Developers. In 2002, I wrote the Absolute Beginner's Guide to Databases for Que Publishing. For serveral years, I was an instructor for both AppDev and MEI. I was a co-author of Visual FoxPro Enterprise Development from Prima Publishing with Rod Paddock, Ron Talmadge and Eric Ranft. I was also a co-author of Visual Basic Web Development from Prima Publishing with Rod Paddock and Richard Campbell.
+
+        In 2004, I graduated from the Rutgers University School of Law with a Juris Doctor Degree. I passed the Pennsylvania and New Jersey Bar exams and was in private practice for several years – concentrating transactional and general business law (contracts, copyrights, trademarks, independent contractor agreements, NDA's, intellectual property and mergers and aquisitions.).
+
+        Although I never completely stopped, several years ago, I returned to my first passion on a full time basis- software development. Today, I am writing for Code Magazine again and am active on the MSDN Forums. I actively participate in the Philly SQL Server, .NET, ALT NET and XAML user groups.
+
+        My primary technical focus today includes:
+        - C#
+        - ASP/ASP MVC
+        - NHibernate/Fluent NHibernate
+        - SQL Server (as well as Reporting Services, Integration Services and Analysis Services)
+        - DDD/TDD methodologies
+
+        Educational Background:
+
+        - B.S Business Administration – Mansfield University
+        - M.B.A. – Information Systems – Saint Joseph's University
+        - J.D. – Rutgers University School of Law (Camden)</Bio>
+    </Session>
+    <Session>
+      <Title>Intro to Ajax, jSON and jQuery in ASP MVC</Title>
+      <Presenter>John Petersen</Presenter>
+      <Time>TBD</Time>
+      <Room>TBD</Room>
+      <Abstract>To harness the true power and flexibility of ASP MVC, you need to add Ajax, jSON and jQuery to your toolbox. Ajax allows us to post data to our controllers without having to refresh the entire page. jSON is an object notation that allows us to stream data to a web page, again without having to refresh the entire page. jQuery is a powerful Javascript library that among other things, helps us bring the capabilities of Ajax and jSON together. In this session, John will go over code examples so that you an get up and running quickly.</Abstract>
+      <Bio>I have been a developer for about 20 years – starting with dBase and FoxBase +. I then got into FoxPro 2.0 and VB 3 – eventually giving way to Visual FoxPro. Then along came .NET! Through that time, I have developed applications in SQL Server since version 6. I have also developed applications with Oracle versions 9i and 10g. From 1995-2001, I was a Microsoft Developer MVP. I have spoken at many user groups and industry conferences including Tech Ed and Developer Days.
+
+        In 1999, I wrote the definitive whitepaper on ADO for VFP Developers. In 2002, I wrote the Absolute Beginner's Guide to Databases for Que Publishing. For serveral years, I was an instructor for both AppDev and MEI. I was a co-author of Visual FoxPro Enterprise Development from Prima Publishing with Rod Paddock, Ron Talmadge and Eric Ranft. I was also a co-author of Visual Basic Web Development from Prima Publishing with Rod Paddock and Richard Campbell.
+
+        In 2004, I graduated from the Rutgers University School of Law with a Juris Doctor Degree. I passed the Pennsylvania and New Jersey Bar exams and was in private practice for several years – concentrating transactional and general business law (contracts, copyrights, trademarks, independent contractor agreements, NDA's, intellectual property and mergers and aquisitions.).
+
+        Although I never completely stopped, several years ago, I returned to my first passion on a full time basis- software development. Today, I am writing for Code Magazine again and am active on the MSDN Forums. I actively participate in the Philly SQL Server, .NET, ALT NET and XAML user groups.
+
+        My primary technical focus today includes:
+        - C#
+        - ASP/ASP MVC
+        - NHibernate/Fluent NHibernate
+        - SQL Server (as well as Reporting Services, Integration Services and Analysis Services)
+        - DDD/TDD methodologies
+
+        Educational Background:
+
+        - B.S Business Administration – Mansfield University
+        - M.B.A. – Information Systems – Saint Joseph's University
+        - J.D. – Rutgers University School of Law (Camden)</Bio>
+    </Session>
+    <Session>
+      <Title>Building Your First ASP.Net MVC Application</Title>
+      <Presenter>David Giard</Presenter>
+      <Time>TBD</Time>
+      <Room>TBD</Room>
+      <Abstract>This session walks through the basics of creating an ASP.Net MVC application. I describe how the model, view and controller relate to one another; how to create each component; the conventions used in MVC; and the URL routing engine. We will build a simple application that uses this framework.</Abstract>
+      <Bio>David Giard has been developing solutions using Microsoft technologies since 1993. In the past, he has spoken at Day of .Net, CodeStock, Microsoft DevCares, Microsoft ArcReady, Dot Net University, X Conference and numerous user groups around the Midwest. He is a recovering certification addict and holds an MCTS, MCSD, MCSE, and MCDBA, as well as a BS and an MBA. He is the host and producer of the mildly popular online TV show Technology and Friends (http://technologyandfriends.com). He is president of the Great Lakes Area .Net User Group. He is an avid photographer and has visually documented many of the Heartland community events. You can read his latest thoughts at www.DavidGiard.com.
+        David lives in Michigan with his two teenage sons.</Bio>
+    </Session>
+    <Session>
+      <Title>Lambda Expressions</Title>
+      <Presenter>Matt Van Horn</Presenter>
+      <Time>TBD</Time>
+      <Room>TBD</Room>
+      <Abstract>I will introduce lambda expressions and show how easy to use and time saving they really can be to a beginner level developer. I will show the various ways that you can use lambda expressions and the syntax to use them and new ways to use them to make your life easier.</Abstract>
+      <Bio>Matt Van Horn specializes in rapid development focused on flexible and dynamic code to leverage maximum results with minimal effort. His development tool of choice is Silverlight which he has use in projects from a clone of space invaders for facebook to back office accounting to dynamic business intelligence visualization system that turned heads at the Global Gaming(casino) Expo this year in Las Vegas.</Bio>
+    </Session>
+    <Session>
+      <Title>C# Generics</Title>
+      <Presenter>Matt Van Horn</Presenter>
+      <Time>TBD</Time>
+      <Room>TBD</Room>
+      <Abstract>I will cover the use of generics to make code that is generalized so that you can make highly reusable code and reduce the need for casting by unbox properties from an object data type. I will also cover generic methods, interfaces, classes, delegates, arrays, collections, and how to put constraints on what types can be used as the type argument when using generics.</Abstract>
+      <Bio>Matt Van Horn specializes in rapid development focused on flexible and dynamic code to leverage maximum results with minimal effort. His development tool of choice is Silverlight which he has use in projects from a clone of space invaders for facebook to back office accounting to dynamic business intelligence visualization system that turned heads at the Global Gaming(casino) Expo this year in Las Vegas.</Bio>
+    </Session>
+    <Session>
+      <Title>A case for the good build</Title>
+      <Presenter>Keith Bozek</Presenter>
+      <Time>TBD</Time>
+      <Room>TBD</Room>
+      <Abstract>The build process is often overlooked due to time. But having a good build and release process is critical to tracking issues once software leaves an organization. This discussion will focus on the lessons of building and releasing software in a large organization where we release software for single products and software that affects multiple product lines and or require very specific build and release rules. This discussion will be hands-on. It will establish several common build scenarios and will present several free or low cost tools that help automate builds. We will focus on build practices currently used by successful organizations such as the continuous integration model.The goal is to allow developers to be able to understand the overall process and be able to walk away with enough knowledge to create their own build infrastructures</Abstract>
+      <Bio>Living in Rochester NY. Software Engineer for 12 years at Eastman Kodak. We wear multiple hats in the new Kodak including release engineering and sofware development. Development experience include Windows drivers, Windows UI (from WTL, to MFC to WPF). Many years also creating a build infrastructure and process to release software that has an audience of millions of users. I've also developed for machine vision and factory automation applications.
+
+        From Uniontown, PA. I graduated from California University of PA. I worked for Sony Mt Pleasant PA.</Bio>
+    </Session>
+
+    <Session>
+      <Title>Windows 7 Phone Series Development</Title>
+      <Presenter>John Baird</Presenter>
+      <Time>TBD</Time>
+      <Room>TBD</Room>
+      <Abstract>will revise after MIX.</Abstract>
+      <Bio>John Baird began his computer programming career while in the US Navy. In 1982, he helped form and direct the first PC-based computer processing department for training and manpower in the Department of Defense. After leaving the military in 1988, John began a varied career as a consultant developing business applications ranging from computer-based training to vertical market software for resellers. Today, John is working for the industry leader in financial software for fund administration.
+
+        John is also a Microsoft MVP for device application development.</Bio>
+    </Session>
+    <Session>
+      <Title>How to enlist SRS to enhance your application's reporting</Title>
+      <Presenter>Von Scarberry</Presenter>
+      <Time>TBD</Time>
+      <Room>TBD</Room>
+      <Abstract>I will explore in depth the different techniques of how SRS can streamline you applications reporting. This will include how SRS differs from other reporting tool like Crystal Reports and Active Reports. I will cover export format streaming to PFD, Excel, and Word. I will also cover dynamic reporting in detail. Finally, I will cover best practices and reusability across ASP.net, winforms, and SRS reporting server.</Abstract>
+      <Bio>For the past 10 years I have developed custom integrations wrapped around MS Dynamics products with the bulk of the development against Dynamics GP (Great Plains). I have aided several mid to large sized companies reduce their overall overhead through .net custom development. Most of the projects have been tailored to financials to include Sales Order Processing, General Ledger, and payables.</Bio>
+    </Session>
+    <Session>
+      <Title>Sql? We don't need no stinkin' sql!</Title>
+      <Presenter>Matt Otto</Presenter>
+      <Time>TBD</Time>
+      <Room>TBD</Room>
+      <Abstract>When it comes to the task of storing and processing data, we've always reached for the same tool - the relational database. But many applications simply don't need to represent data as a set of related tables. NoSQL (Not Only SQL) is the term used to describe a loosely defined class of non-relational data stores that provide an alternative to relational databases.This talk will introduce MongoDB, an open-source, document-oriented database optimized for speed, scalability, and ease of use. We will start off covering the basics of MongoDB by experimenting with the MongoDB interactive shell. Then we'll look at how to use MongoDB from a .Net application using C# and further explore MongoDB's unique features such as upserts, atomic updates-in-place, and capped collections. We'll also look into using map-reduce for complex aggregation.</Abstract>
+      <Bio>Matt Otto is a software developer from Pittsburgh, Pennsylvania focusing mainly on ASP.NET, Ruby on Rails, and Agile development practices. Matt is currently employed as a Senior Software Engineer with Matrix Solutions and is an active member of the Pittsburgh ALT.net user group.</Bio>
+    </Session>
+
+  </Sessions>
 </CodeCampData>
