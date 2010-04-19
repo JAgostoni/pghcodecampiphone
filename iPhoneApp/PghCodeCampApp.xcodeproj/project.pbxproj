@@ -34,6 +34,7 @@
 		96F1EC6A113A23A4002135FB /* SessionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F1EC69113A23A4002135FB /* SessionItem.m */; };
 		96F1EC7D113A2656002135FB /* SessionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F1EC7C113A2656002135FB /* SessionTableViewController.m */; };
 		96F1EC81113A26A5002135FB /* SessionTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96F1EC80113A26A5002135FB /* SessionTableView.xib */; };
+		96F5A997113F685700FB054D /* campfire2x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F5A996113F685700FB054D /* campfire2x57.png */; };
 		96FACC3F1139DF2400FAC678 /* NewsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FACC3E1139DF2400FAC678 /* NewsItem.m */; };
 /* End PBXBuildFile section */
 
@@ -49,7 +50,6 @@
 		32CA4F630368D1EE00C91783 /* PghCodeCampApp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PghCodeCampApp_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* PghCodeCampApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PghCodeCampApp-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		9614AE99113DE21B00ABC5B1 /* DefaultData.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = DefaultData.xml; sourceTree = "<group>"; };
-		9616FB43113B1BB80062F1BA /* SampleData.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SampleData.xml; sourceTree = "<group>"; };
 		961877701139C8E000D49ACF /* CodeCampData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeCampData.h; sourceTree = "<group>"; };
 		961877711139C8E000D49ACF /* CodeCampData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeCampData.m; sourceTree = "<group>"; };
 		961877E01139D1E000D49ACF /* NewsDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsDetailView.xib; sourceTree = "<group>"; };
@@ -78,6 +78,7 @@
 		96F1EC7B113A2656002135FB /* SessionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionTableViewController.h; sourceTree = "<group>"; };
 		96F1EC7C113A2656002135FB /* SessionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionTableViewController.m; sourceTree = "<group>"; };
 		96F1EC80113A26A5002135FB /* SessionTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SessionTableView.xib; sourceTree = "<group>"; };
+		96F5A996113F685700FB054D /* campfire2x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = campfire2x57.png; sourceTree = "<group>"; };
 		96FACC3D1139DF2400FAC678 /* NewsItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsItem.h; sourceTree = "<group>"; };
 		96FACC3E1139DF2400FAC678 /* NewsItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,6 +157,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				96F5A996113F685700FB054D /* campfire2x57.png */,
 				9643D55E113AEADE00348766 /* SessionDetailView.xib */,
 				96F1EC50113A0EEB002135FB /* campfire2.png */,
 				9692314B1139C123009F8613 /* NewsTableView.xib */,
@@ -169,7 +171,6 @@
 				96F1EC80113A26A5002135FB /* SessionTableView.xib */,
 				9643D5B3113AFADA00348766 /* SessionTableViewCell.xib */,
 				9643D5F6113AFFF000348766 /* InfoView.xib */,
-				9616FB43113B1BB80062F1BA /* SampleData.xml */,
 				9614AE99113DE21B00ABC5B1 /* DefaultData.xml */,
 			);
 			name = Resources;
@@ -244,6 +245,7 @@
 				9643D5B4113AFADA00348766 /* SessionTableViewCell.xib in Resources */,
 				9643D5F7113AFFF000348766 /* InfoView.xib in Resources */,
 				9614AE9A113DE21B00ABC5B1 /* DefaultData.xml in Resources */,
+				96F5A997113F685700FB054D /* campfire2x57.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
