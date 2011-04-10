@@ -123,7 +123,7 @@
 	PghCodeCampAppAppDelegate *app = [[UIApplication sharedApplication] delegate];
 	[app.sessionNavController pushViewController:nextView animated:TRUE];
 	
-	SessionItem *item = [codeCampData.sessionItems objectAtIndex:[indexPath row]];	
+	SessionItem *item = [codeCampData.sessionItems objectAtIndex:[indexPath row]];
 	[nextView.presenter setText:item.presenter];
 	[nextView.time setText:item.time];
 	[nextView.room setText:item.room];
