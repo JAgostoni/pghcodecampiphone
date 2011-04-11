@@ -36,6 +36,7 @@
 		96F1EC81113A26A5002135FB /* SessionTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96F1EC80113A26A5002135FB /* SessionTableView.xib */; };
 		96F5A997113F685700FB054D /* campfire2x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F5A996113F685700FB054D /* campfire2x57.png */; };
 		96FACC3F1139DF2400FAC678 /* NewsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FACC3E1139DF2400FAC678 /* NewsItem.m */; };
+		F2406869135288FE000DF8D8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F2406868135288FE000DF8D8 /* Default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +82,7 @@
 		96F5A996113F685700FB054D /* campfire2x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = campfire2x57.png; sourceTree = "<group>"; };
 		96FACC3D1139DF2400FAC678 /* NewsItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsItem.h; sourceTree = "<group>"; };
 		96FACC3E1139DF2400FAC678 /* NewsItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsItem.m; sourceTree = "<group>"; };
+		F2406868135288FE000DF8D8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F2406868135288FE000DF8D8 /* Default.png */,
 				96F5A996113F685700FB054D /* campfire2x57.png */,
 				9643D55E113AEADE00348766 /* SessionDetailView.xib */,
 				96F1EC50113A0EEB002135FB /* campfire2.png */,
@@ -253,6 +256,7 @@
 				9643D5F7113AFFF000348766 /* InfoView.xib in Resources */,
 				9614AE9A113DE21B00ABC5B1 /* DefaultData.xml in Resources */,
 				96F5A997113F685700FB054D /* campfire2x57.png in Resources */,
+				F2406869135288FE000DF8D8 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +337,7 @@
 				PRODUCT_NAME = PghCodeCampApp;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Distribution;
 		};
